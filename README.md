@@ -1,5 +1,8 @@
 # iphone_photo
 
+### Deployed link
+https://642571219bb5596125124210--marvelous-pudding-9c76ec.netlify.app/
+
 ## Project setup
 ```
 npm install
@@ -22,6 +25,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Deployed link
-https://642571219bb5596125124210--marvelous-pudding-9c76ec.netlify.app/
