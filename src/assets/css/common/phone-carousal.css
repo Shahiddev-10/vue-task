@@ -1,0 +1,87 @@
+.phone-carousel {
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.shadow-img {
+    position: relative;
+    top: -88px;
+}
+
+.phone-img {
+    width: 332px;
+    position: absolute;
+    left: 4%;
+    top: 0;
+    z-index: 89;
+    margin-top: 45px;
+}
+
+.big-carousel {
+    position: absolute;
+    z-index: 99;
+    top: 113px;
+    left: 4%;
+    width: 307px;
+}
+
+.small-carousel {
+    position: absolute;
+    top: 81.7%;
+    left: 8.2%;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+}
+
+.camera-controls {
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    z-index: 999;
+    width: 127px;
+}
+
+.camera-button {
+    color: #fff;
+    position: absolute;
+    background: #fff;
+    width: 39px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 13%;
+    left: 44%;
+    padding: 6px;
+}
+
+.carousel-nav {
+    left: 0;
+    right: 0;
+    width: 70%;
+}
+
+.carousel-next-btn {
+    width: 55px;
+    height: 1px;
+    border-radius: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .phone-img {
+        left: 28%;
+        margin-top: 0;
+    }
+
+    .phone-carousel {
+        top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .phone-carousel {
+        top: -20px;
+    }
+}
